@@ -331,25 +331,21 @@ tp-yt-paper-tab {
 ytmusic-multi-page-menu-renderer {
   background: $black !important;
   border: 1px solid $white-8 !important;
-  border-radius: 6px !important;
+  border-radius: 10px !important;
 
   #sections {
-    scrollbar-width: none !important;
-
-    &::-webkit-scrollbar {
-      display: none !important;
-    }
-
     ytd-compact-link-renderer {
-      margin: 0 6px !important;
       border-radius: 6px !important;
-      overflow: hidden !important;
     }
   }
 
   tp-yt-paper-item {
     --paper-item-min-height: 32px !important;
   }
+}
+
+yt-multi-page-menu-section-renderer {
+  padding: 8px !important;
 }
 
 /* =============== */
