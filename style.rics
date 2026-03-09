@@ -151,12 +151,12 @@ ytmusic-player-queue-item {
 
 ytmusic-menu-popup-renderer {
   tp-yt-paper-listbox#items {
-    padding: 4px 0 !important;
+    padding: 8px !important;
     border-radius: 10px !important;
     background: $black !important;
 
     > * {
-      margin: 0 4px !important;
+      margin: 0 !important;
       border-radius: 6px !important;
 
       &:hover {
@@ -171,9 +171,6 @@ ytmusic-menu-service-item-renderer,
 ytmusic-toggle-menu-service-item-renderer {
   min-height: 32px !important;
   height: 32px !important;
-  padding: 0 10px !important;
-  display: flex !important;
-  align-items: center !important;
 }
 
 ytmusic-menu-service-item-download-renderer {
