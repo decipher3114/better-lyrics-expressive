@@ -180,6 +180,26 @@ ytmusic-menu-service-item-download-renderer {
   }
 }
 
+/* ==================== */
+/* ADD TO PLAYLIST MENU */
+/* ==================== */
+
+ytmusic-add-to-playlist-renderer {
+  background: $black !important;
+
+  .top-bar yt-formatted-string {
+    @include heading-font;
+  }
+
+  yt-formatted-string.section-heading {
+    @include heading-font;
+  }
+
+  #playlists ytmusic-playlist-add-to-option-renderer yt-formatted-string#title {
+    @include heading-font;
+  }
+}
+
 /* ============= */
 /* BETTER LYRICS */
 /* ============= */
