@@ -38,6 +38,7 @@ $white-12: rgba(255, 255, 255, 0.12);
 }
 
 :root {
+  --blyrics-font-family: #{$font-family};
   --font-family: #{$font-family};
   --font-weight-default: #{$font-weight-default};
   --font-settings-default: #{$font-settings-default};
