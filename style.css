@@ -13,7 +13,7 @@
     --font-weight-heading: 600;
     --font-settings-heading: "slnt" 0, "wdth" 112.5, "GRAD" 50, "ROND" 0;
     --bg-primary: #000000;
-    --border-color: rgba(255, 255, 255, 0.08);
+    --border-color: rgba(255, 255, 255, 0.2);
     --border-radius-small: 6px;
     --border-radius-large: 12px;
 }
@@ -515,7 +515,7 @@ tp-yt-paper-toggle-button #toggleBar {
     height: 22px !important;
     border-radius: 999px !important;
     background: transparent !important;
-    border: 2px solid rgba(255, 255, 255, 0.35) !important;
+    border: 2px solid rgba(255, 255, 255, 1) !important;
     transition: border 0.25s ease !important;
 }
 
