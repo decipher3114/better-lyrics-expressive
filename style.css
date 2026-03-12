@@ -413,6 +413,20 @@ ytmusic-dialog {
     overflow: hidden !important;
 }
 
+/* style share dialog */
+tp-yt-paper-dialog {
+    background: var(--bg-primary) !important;
+    border-radius: var(--border-radius-large) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* style share dialog "Share" title and "Start at" text with wide font */
+yt-share-panel-title-v15-renderer #title,
+yt-start-at-renderer yt-formatted-string {
+    font-weight: var(--font-weight-heading) !important;
+    font-variation-settings: var(--font-settings-heading) !important;
+}
+
 /* style dialog content */
 ytmusic-dialog #content,
 ytmusic-dialog + tp-yt-paper-dialog-scrollable {
