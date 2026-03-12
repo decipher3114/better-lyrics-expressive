@@ -47,6 +47,11 @@ ytmusic-player-bar yt-formatted-string {
     font-variation-settings: var(--font-settings-heading) !important;
 }
 
+/* style player expanding menu */
+ytmusic-player-expanding-menu {
+    background: black !important;
+}
+
 /* style player bar when not in full screen */
 ytmusic-app:not([player-page-open]) ytmusic-player-bar {
     background: var(--bg-primary) !important;
