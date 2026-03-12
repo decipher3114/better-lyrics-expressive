@@ -230,14 +230,12 @@ ytmusic-add-to-playlist-renderer
 
 /* style song title */
 #blyrics-title {
-    font-size: 0.9em !important;
     font-weight: var(--font-weight-default) !important;
     font-variation-settings: var(--font-settings-default) !important;
 }
 
 /* style artist name */
 #blyrics-artist {
-    font-size: 0.85em !important;
     font-weight: var(--font-weight-default) !important;
     font-variation-settings: var(--font-settings-default) !important;
 }
